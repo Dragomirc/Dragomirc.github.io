@@ -1,0 +1,255 @@
+*{
+	padding:0;
+	margin:0;
+	font-size:100%;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	
+}
+#wrapper{
+	border:  double #860686; 
+	width: 80%;
+	margin: 1rem auto;
+}
+
+/*Primary Navigation Menu*/
+#primnav {
+	background-color: #860686; 
+	text-align: center; 
+}
+
+#primnav li {
+	list-style: none; 
+	display: inline-block; 
+}
+
+#primnav a {
+	text-decoration: none; 
+	color: white; 
+	padding: 0.75rem; 
+	display: inline-block; 
+	text-align: center; 
+	min-width: 100px; 
+    letter-spacing: 0.0825em; 
+    font-weight: bold;
+}
+
+
+
+#primnav a:hover {
+	color: #860686;  
+	background-color: white;
+}
+#secnav a:hover {
+	color: white;  
+	background-color: #860686;
+}
+
+#primnav .current {
+	background-color: hsl(300, 100%, 38%);
+}
+
+/*Secondary navigation // Transport page*/
+
+#secnav ul{
+	margin: 2rem 0rem 0rem 0rem;
+}
+#secnav li{
+	list-style:none;
+	border-top: 1.5px solid #520052;
+	width:90%;
+}
+#secnav li:last-child{
+	border-bottom: 1.5px solid #520052;
+}
+
+#secnav a{
+	letter-spacing: 0.0825rem;
+	text-decoration:none;
+	color:rgb(82,0,82);
+	padding: 0.3rem;
+	display:block;
+	font-weight: bolder;
+}
+
+/*inline-block layout // transport.html*/
+#rightcolumn {
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+}
+
+#leftcolumn {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+
+/*Header and Footer Links*/
+#hlinks{
+	text-align:right;
+}
+#hlinks li{
+	display: inline-block;
+	list-style:none;
+	font-size:0.9rem;
+
+	
+}
+
+#hlinks a,#flinks a{
+	color:#860686;
+	letter-spacing:0.0625rem;
+	line-height:1.2rem;
+}
+#hlinks a:hover,#flinks a:hover{
+	text-decoration:underline;
+}
+#hlinks ul,#flinks ul{
+	margin:1rem 0.75rem;
+	
+}
+#flinks{
+	border-top:  double #860686; 
+	
+}
+#flinks li{
+	list-style:none;
+	font-size:smaller;
+}
+
+/*Links*/
+a{
+	text-decoration: none;
+}
+/*Paragraphs and headings*/
+p{
+	max-width: 70%;
+	line-height: 1.3;
+	padding: 0.5rem;
+	color: #808080;
+}
+
+h1 {
+	font-size: 3.25rem;
+	padding: 0 0 2rem 1rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 0.5rem 0;
+	padding: 1rem;
+}
+.home h2{
+	border-bottom:  double #860686;
+}
+
+h3 {
+	font-size: 1.5rem;
+    margin: 1rem 0;
+	padding: 1rem 1rem 0 1rem;
+}
+h4{
+	font-size: 1rem;
+	margin: 1rem 0;
+	padding: 1rem;
+
+}
+
+h1, h2, h3,h4 {
+	 letter-spacing: 0.125em;
+	 color: #520052;
+}
+
+
+.home article{
+	position:relative;
+	width:90%;
+	
+
+
+}
+.home img,.transport img{
+	padding: 0.5rem 0.5rem 0 0.5rem;
+	float:left;
+}
+footer,.home aside{
+	clear:both;
+}
+
+/* Reviews / homepage */
+
+.review{
+	
+	position: absolute;
+	top: 0;
+	left: 70%;
+	margin: 2rem;
+	width: 30%;
+	min-width: 100px;
+	border: 1px dashed #860686;
+	padding-bottom: 1rem;
+
+}
+.review p{
+	max-width: 100%;
+}
+
+.review img{
+	border-radius:50%;
+}
+
+/*Flexbox places.html*/
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+
+.flexitem, .tips {
+	margin: 0.25rem;
+	background-color: #FFF5FF;
+	border: 1px double #860686;
+}
+.flexitem{
+	width:225px;
+	padding: 1rem;
+}
+
+.flexitem p, #tipscontainer p{
+	max-width: 100%;
+}
+
+.flexitem img{
+    display: block;
+    border: 1px solid #860686;
+	margin: 0.5rem auto;
+}
+
+.flexitem h3,.transport h3{
+	margin: 0.5rem 0;
+	padding: 0rem 1rem 0 1rem;
+}
+.italic{
+	font-style:italic;
+}
+
+.transport{
+	border-top: 1px dashed #860686;
+
+}
+
+/*Travel Tips*/
+#tipscontainer{
+	margin:1rem;
+	width:75%;
+
+}
+.tips h3{
+	padding:0.5rem;
+	margin:0.25rem 0.25rem 0rem;
+}
+
